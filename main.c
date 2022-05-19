@@ -88,6 +88,7 @@ void *produtor(void *args) {
 int main() {
 	int produtor_qnt, consumidor_qnt, index;
 
+	printf("Insira a quantidade de Produtores, Consumidores, o limite e o tamanho do Buffer respectivamente: ");
 	scanf("%d %d %d %d", &produtor_qnt, &consumidor_qnt, &limite, &buffer_size);
 	
 	// Cria o Buffer
